@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract blue digital network background",
+      "imageUrl": "https://picsum.photos/seed/12/1920/1080",
+      "imageHint": "digital marketing"
+    },
+    {
+      "id": "case-study-1",
+      "description": "E-commerce growth analytics",
+      "imageUrl": "https://picsum.photos/seed/cs1/800/600",
+      "imageHint": "analytics dashboard"
+    },
+    {
+      "id": "case-study-2",
+      "description": "Social media campaign results",
+      "imageUrl": "https://picsum.photos/seed/cs2/800/600",
+      "imageHint": "social media"
+    },
+    {
+      "id": "case-study-3",
+      "description": "SEO performance graph",
+      "imageUrl": "https://picsum.photos/seed/cs3/800/600",
+      "imageHint": "seo charts"
+    },
+    {
+      "id": "profile-pic",
+      "description": "Professional headshot of a digital marketer",
+      "imageUrl": "https://picsum.photos/seed/profile/400/400",
+      "imageHint": "professional portrait"
+    }
+  ]
+}
