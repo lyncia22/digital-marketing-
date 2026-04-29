@@ -1,29 +1,28 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 208 22% 10%;
-    --foreground: 0 0% 98%;
-    --card: 208 22% 12%;
-    --card-foreground: 0 0% 98%;
-    --popover: 208 22% 10%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 221 72% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 208 22% 18%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 208 22% 18%;
-    --muted-foreground: 208 20% 70%;
-    --accent: 191 86% 61%;
-    --accent-foreground: 208 22% 10%;
+    --background: 325 30% 6%;
+    --foreground: 325 10% 98%;
+    --card: 325 30% 10%;
+    --card-foreground: 325 10% 98%;
+    --popover: 325 30% 6%;
+    --popover-foreground: 325 10% 98%;
+    --primary: 325 85% 70%;
+    --primary-foreground: 325 30% 10%;
+    --secondary: 325 20% 15%;
+    --secondary-foreground: 325 10% 98%;
+    --muted: 325 20% 15%;
+    --muted-foreground: 325 10% 70%;
+    --accent: 280 70% 80%;
+    --accent-foreground: 325 30% 6%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 208 22% 20%;
-    --input: 208 22% 20%;
-    --ring: 221 72% 50%;
+    --border: 325 20% 20%;
+    --input: 325 20% 20%;
+    --ring: 325 85% 70%;
     --radius: 0.75rem;
   }
 }
@@ -45,6 +44,6 @@
 }
 
 .hero-gradient {
-  background: radial-gradient(circle at top right, hsla(221, 72%, 50%, 0.15), transparent),
-              radial-gradient(circle at bottom left, hsla(191, 86%, 61%, 0.1), transparent);
+  background: radial-gradient(circle at top right, hsla(325, 85%, 70%, 0.15), transparent),
+              radial-gradient(circle at bottom left, hsla(280, 70%, 80%, 0.1), transparent);
 }
