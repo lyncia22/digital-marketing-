@@ -1,4 +1,3 @@
-
 "use client"
 
 import Link from 'next/link'
@@ -12,7 +11,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2 text-xl font-headline font-bold text-foreground">
-              <span className="text-primary italic">S</span>ynergyfolio
+              <span className="text-primary italic">L</span>yncia Chiguri
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
@@ -28,7 +27,6 @@ export function Navbar() {
             </Link>
           </div>
           <div className="md:hidden">
-            {/* Mobile menu could go here if needed, keeping simple for now */}
             <Link href="/portfolio/new">
               <Button size="sm" variant="ghost" className="p-2">
                 <Sparkles className="w-5 h-5 text-accent" />

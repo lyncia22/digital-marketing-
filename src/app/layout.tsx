@@ -1,9 +1,8 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Synergyfolio | Digital Marketing Portfolio',
+  title: 'Lyncia Chiguri | Digital Marketing Portfolio',
   description: 'Showcasing expertise in digital strategy, SEO, and performance marketing.',
 };
 

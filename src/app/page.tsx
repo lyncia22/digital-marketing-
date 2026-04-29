@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import Link from 'next/link'
 import { Navbar } from '@/components/layout/Navbar'
@@ -52,7 +51,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats/Logo Cloud could go here */}
+      {/* Stats/Logo Cloud */}
       <section className="py-12 border-y border-white/5 bg-secondary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-8 md:gap-24 items-center opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
@@ -75,7 +74,7 @@ export default function Home() {
               <div className="aspect-square relative rounded-2xl overflow-hidden border-8 border-background shadow-2xl z-10">
                 <Image
                   src={profileImg}
-                  alt="Profile"
+                  alt="Lyncia Chiguri"
                   fill
                   className="object-cover"
                   data-ai-hint="profile photo"
@@ -125,7 +124,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-xl font-headline font-bold">
-              <span className="text-primary italic">S</span>ynergyfolio
+              <span className="text-primary italic">L</span>yncia Chiguri
             </div>
             <div className="flex gap-8 text-sm text-muted-foreground">
               <Link href="#" className="hover:text-primary transition-colors">LinkedIn</Link>
@@ -134,7 +133,7 @@ export default function Home() {
               <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
             </div>
             <div className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Synergyfolio. All rights reserved.
+              &copy; {new Date().getFullYear()} Lyncia Chiguri. All rights reserved.
             </div>
           </div>
         </div>
