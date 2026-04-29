@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { Navbar } from '@/components/layout/Navbar'
@@ -127,7 +128,7 @@ export default function Home() {
               <span className="text-primary italic">L</span>yncia Chiguri
             </div>
             <div className="flex gap-8 text-sm text-muted-foreground">
-              <Link href="#" className="hover:text-primary transition-colors">LinkedIn</Link>
+              <a href="https://www.linkedin.com/in/lyncia-chiguri" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
               <Link href="#" className="hover:text-primary transition-colors">Twitter</Link>
               <Link href="#" className="hover:text-primary transition-colors">GitHub</Link>
               <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>

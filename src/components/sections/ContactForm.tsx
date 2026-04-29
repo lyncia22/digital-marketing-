@@ -26,7 +26,7 @@ export function ContactForm() {
           </div>
           <h3 className="text-2xl font-headline mb-4">Message Sent!</h3>
           <p className="text-muted-foreground mb-8">
-            Thank you for reaching out. I'll get back to you within 24-48 hours.
+            Thank you for reaching out, Lyncia. I'll get back to you within 24-48 hours.
           </p>
           <Button onClick={() => setSubmitted(false)} variant="outline">Send another message</Button>
         </CardContent>
@@ -50,7 +50,7 @@ export function ContactForm() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-semibold">hello@synergyfolio.com</p>
+                  <a href="mailto:chigurilyncia@gmail.com" className="font-semibold hover:text-primary transition-colors">chigurilyncia@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ export function ContactForm() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Socials</p>
-                  <p className="font-semibold">LinkedIn / Twitter / Behance</p>
+                  <a href="https://www.linkedin.com/in/lyncia-chiguri" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-accent transition-colors">LinkedIn Profile</a>
                 </div>
               </div>
             </div>
