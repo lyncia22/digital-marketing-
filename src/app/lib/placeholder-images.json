@@ -3,33 +3,39 @@
   "placeholderImages": [
     {
       "id": "hero-bg",
-      "description": "Abstract blue digital network background",
-      "imageUrl": "https://picsum.photos/seed/12/1920/1080",
+      "description": "Abstract digital marketing and data visualization background",
+      "imageUrl": "https://picsum.photos/seed/67/1920/1080",
       "imageHint": "digital marketing"
     },
     {
       "id": "case-study-1",
-      "description": "E-commerce growth analytics",
-      "imageUrl": "https://picsum.photos/seed/cs1/800/600",
-      "imageHint": "analytics dashboard"
+      "description": "E-commerce growth and sales dashboard",
+      "imageUrl": "https://picsum.photos/seed/88/800/600",
+      "imageHint": "sales dashboard"
     },
     {
       "id": "case-study-2",
-      "description": "Social media campaign results",
-      "imageUrl": "https://picsum.photos/seed/cs2/800/600",
+      "description": "Social media engagement and community management",
+      "imageUrl": "https://picsum.photos/seed/92/800/600",
       "imageHint": "social media"
     },
     {
       "id": "case-study-3",
-      "description": "SEO performance graph",
-      "imageUrl": "https://picsum.photos/seed/cs3/800/600",
-      "imageHint": "seo charts"
+      "description": "SEO keyword ranking and search performance metrics",
+      "imageUrl": "https://picsum.photos/seed/45/800/600",
+      "imageHint": "seo analytics"
     },
     {
       "id": "profile-pic",
-      "description": "Professional headshot of a digital marketer",
-      "imageUrl": "https://picsum.photos/seed/profile/400/400",
-      "imageHint": "professional portrait"
+      "description": "Professional and approachable headshot of Lyncia Chiguri",
+      "imageUrl": "https://picsum.photos/seed/lyricia/600/600",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "about-visual",
+      "description": "Creative workspace with digital tools and strategy notes",
+      "imageUrl": "https://picsum.photos/seed/strategy/800/800",
+      "imageHint": "creative office"
     }
   ]
 }
