@@ -6,33 +6,39 @@ import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ArrowUpRight, BarChart3, Target } from 'lucide-react'
+import { ArrowUpRight, Target } from 'lucide-react'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
 
-const PROJECTS = [
+export const PROJECTS = [
   {
-    id: '1',
+    id: 'ecommerce-growth',
     title: 'E-commerce Growth Engine',
     description: 'Scaled a direct-to-consumer brand by 300% in 6 months through precision-targeted performance marketing.',
     tags: ['Paid Ads', 'CRO', 'Growth'],
     kpi: '+300% Revenue',
     image: PlaceHolderImages.find(img => img.id === 'case-study-1')?.imageUrl || '',
+    longDescription: 'This project involved a complete overhaul of the client\'s acquisition funnel. We implemented high-intent search campaigns and retargeting loops that significantly lowered the CAC while scaling volume.',
+    results: ['300% Revenue increase', '45% reduction in CAC', '2.4x higher conversion rate']
   },
   {
-    id: '2',
+    id: 'saas-revamp',
     title: 'Global SaaS Brand Revamp',
     description: 'Comprehensive digital strategy focused on organic visibility and content authority for an enterprise solution.',
     tags: ['SEO', 'Content Strategy'],
     kpi: '+150% Organic Traffic',
     image: PlaceHolderImages.find(img => img.id === 'case-study-2')?.imageUrl || '',
+    longDescription: 'By focusing on semantic SEO and technical site architecture, we positioned the client as a thought leader in their space, resulting in a massive surge of high-quality organic leads.',
+    results: ['150% growth in organic traffic', 'Top 3 rankings for 50+ high-volume keywords', '20% increase in demo bookings']
   },
   {
-    id: '3',
+    id: 'lead-gen-automation',
     title: 'Precision Lead Generation',
     description: 'B2B campaign that lowered CPL by 45% while increasing qualified lead volume through automation.',
     tags: ['Lead Gen', 'Automation'],
     kpi: '-45% CPL',
     image: PlaceHolderImages.find(img => img.id === 'case-study-3')?.imageUrl || '',
+    longDescription: 'We built an automated lead scoring and nurturing system that allowed the sales team to focus only on the most qualified prospects, drastically improving efficiency.',
+    results: ['45% reduction in CPL', '60% increase in MQL-to-SQL conversion', 'Automated 70% of initial outreach']
   }
 ]
 
@@ -85,10 +91,12 @@ export function Portfolio() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full justify-between hover:bg-primary/10 hover:text-primary group/btn">
-                  View Case Study
-                  <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
-                </Button>
+                <Link href={`/portfolio/${project.id}`} className="w-full">
+                  <Button variant="ghost" className="w-full justify-between hover:bg-primary/10 hover:text-primary group/btn">
+                    View Case Study
+                    <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
           ))}
