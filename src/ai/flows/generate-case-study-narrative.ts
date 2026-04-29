@@ -49,7 +49,7 @@ export async function generateCaseStudyNarrative(
 
 const prompt = ai.definePrompt({
   name: 'generateCaseStudyNarrativePrompt',
-  input: {schema: GenerateCaseStudyNarrateInputSchema},
+  input: {schema: GenerateCaseStudyNarrativeInputSchema},
   output: {schema: GenerateCaseStudyNarrativeOutputSchema},
   prompt: `You are an expert marketing copywriter specializing in creating compelling project case studies. Your goal is to transform raw project data into an engaging narrative and a set of concise, impactful summary bullet points.
 
@@ -75,6 +75,9 @@ const generateCaseStudyNarrativeFlow = ai.defineFlow(
   },
   async (input) => {
     const {output} = await prompt(input);
-    return output!;
+    if (!output) {
+      throw new Error('No output generated from AI');
+    }
+    return output;
   }
 );
