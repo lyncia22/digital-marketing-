@@ -85,11 +85,11 @@ export default function Home() {
               <div className="absolute top-1/2 right-0 -translate-y-1/2 p-6 glass-card rounded-xl translate-x-12 hidden md:block">
                 <div className="flex items-center gap-3 mb-2">
                   <CheckCircle className="text-accent w-5 h-5" />
-                  <span className="font-bold">7+ Years Experience</span>
+                  <span className="font-bold">Eager & Fast Learner</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="text-accent w-5 h-5" />
-                  <span className="font-bold">50+ Projects Scaled</span>
+                  <span className="font-bold">Results Driven</span>
                 </div>
               </div>
             </div>
@@ -98,13 +98,13 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-headline mb-6">Bridging the Gap Between Data and Creativity</h2>
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  I'm a senior digital marketer with a background in data science and communications. I believe that modern marketing isn't just about spending budget—it's about understanding human behavior and mapping it to technical systems.
+                  I'm a junior digital marketer with a strong background in communications and a passion for data-driven strategy. I believe that modern marketing is about understanding human behavior and mapping it to technical systems.
                 </p>
                 <p>
-                  My career philosophy is built on "Continuous Optimization." Whether it's a landing page conversion rate or a complex B2B lead funnel, I approach every challenge with a scientific mindset: Test, Measure, Learn, and Scale.
+                  My approach is built on "Continuous Learning." Whether it's optimizing a landing page or exploring technical SEO, I tackle every challenge with a scientific mindset: Test, Measure, and Improve.
                 </p>
                 <p>
-                  When I'm not auditing search consoles or managing ad accounts, I'm usually exploring the intersection of AI and creative marketing automation.
+                  I am dedicated to helping brands grow by leveraging modern tools and creative problem-solving to deliver measurable impact.
                 </p>
               </div>
               <div className="mt-8 pt-8 border-t border-white/5">
